@@ -1,0 +1,17 @@
+/*DEFINING THE VARIABLES */
+:root {
+    --container-width: 100%;
+    --flex: flex;
+    --gray-border: 1px solid #e3e3e3;
+    --color-1: red;
+    --color-2: blue;
+    --color-3: lightblue;
+    --white: #fff;
+    --black: black;
+
+
+    /*Devices size*/
+    --table-width: 730px;
+    --mobile-width: 970px;
+    --destop-width: 1170px;
+}

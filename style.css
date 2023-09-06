@@ -1,0 +1,75 @@
+@import "./variables.css";
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: var(--container-width);
+    display: var(--flex);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: var(--gray-border);
+}
+
+.main-table {
+    width: var(--container-width);
+
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline dotted lightblue;
+}
+
+.table-body{
+    background-color: var(--gray-border);
+}
+
+.table-head{
+    background-color: lightblue;
+    font-size: 23px;
+}
+table{
+    border: 1px solid #ddd;
+}
+th, td{
+    padding: 8px;
+    border: #f2f2f2;
+    text-align: center;
+    border: 1px solid #ddd;
+    
+}
+tr:hover{
+    background-color: black;
+    color: white;
+}
+.odd{
+    background-color: lightblue;
+}
+
+
+/*Responsive acrose larger screen*/
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 970px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
